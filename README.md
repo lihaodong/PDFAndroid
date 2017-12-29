@@ -6,7 +6,7 @@ https://github.com/JoanZapata/android-pdfview
 ----
 
 ## 截图
-![](https://github.com/lihaodong/PDFAndroid/blob/master/images/image0.gif)
+![](https://github.com/lihaodong/PDFAndroid/blob/master/images/image.gif)
 ## 使用方法
 ### Gradle
 ```groovy
