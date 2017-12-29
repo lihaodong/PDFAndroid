@@ -1,0 +1,30 @@
+ext {
+    plugins = [
+            maven      : 'com.github.dcendents.android-maven',
+            bintray    : 'com.jfrog.bintray'
+    ]
+
+    bintray = [
+            version       : "1.0", // 项目本地发布的版本号
+            group         : "com.lihaodong.pdf", // 项目的group名，第一次定好以后不能改
+
+            siteUrl       : 'https://github.com/lihaodong/PDFAndroid.git', // 项目开源地址
+            gitUrl        : 'git@github.com:lihaodong/PDFAndroid.git', // 项目git克隆地址
+
+            packaging     : 'aar',
+            name          : 'PDFAndroid', // 项目名，随意
+            description   : 'PDFAndroid for android', // 项目描述，随意
+
+            licenseName   : 'The Apache Software License, Version 2.0', // 开源协议
+            licenseUrl    : 'http://www.apache.org/licenses/LICENSE-2.0.txt', // 开源协议地址
+
+            developerId   : 'lihaodong', // 开发者id
+            developerName : 'lihaodong', // 开发者姓名
+            developerEmail: '1036754679@qq.com', // 开发者邮箱
+
+            binrayLibrary : "PDFAndroid", // 项目在bintray上看到的名称
+            bintrayRepo   : "maven", // 发布到自己在bintray的哪个仓库中，一般默认maven
+            bintrayUser   : 'lihaodongno1', // bintray的用户名
+            bintrayLicense: "Apache-2.0" // 在bintray上采用的开源协议
+    ]
+}
